@@ -27,25 +27,25 @@
 
 + 두 개의 항 `(x+y)`를 `n제곱`했을 때, 각 항의 계수는 `n choose k`의 공식을 따른다.
 
-+ ![Binomail Theorem](https://wikimedia.org/api/rest_v1/media/math/render/svg/729b7b8a083fff37cab47d7ec3fea0428bc875ea)
++ ![Binomail Theorem](https://wikimedia.org/api/rest_v1/media/math/render/svg/729b7b8a083fff37cab47d7ec3fea0428bc875ea )
 
 ### Q. 이항정리는 어떻게 증명하는가?
 
 + 경우의 수를 셀 때 사용했던 조합을 이용하면 된다.
-+ $x^k$
++ <img src="http://api.gmath.guru/cgi-bin/gmath?x%5Ek"/>
     + x를 k번 선택하는 경우의 수
-    + 전체 n개 중에 k를 뽑는 경우의 수 : `n choose k` = $\binom nk$
-+ $x^ky^{n-k}$
+    + 전체 n개 중에 k를 뽑는 경우의 수 : `n choose k` = <img src="http://api.gmath.guru/cgi-bin/gmath?%5Cbinom%20nk"/>
++ <img src="http://api.gmath.guru/cgi-bin/gmath?x%5Eky%5E%7Bn-k%7D"/>
     + x를 k번, y를 n-k번 선택하는 경우의 수 = x를 k번 선택하는 경우의 수
-    + `n choose k` = $\binom nk$
+    + `n choose k` = <img src="http://api.gmath.guru/cgi-bin/gmath?%5Cbinom%20nk"/>
 
-### Q. $(2x+3y)^4$의 계수를 이항정리를 통해 구하시오.
+### Q. <img src="http://api.gmath.guru/cgi-bin/gmath?%282x+3y%29%5E4"/>의 계수를 이항정리를 통해 구하시오.
 
-+ $(2x+3y)^4 = \binom 44 (2x)^4(3y)^0 + \binom 43 (2x)^3(3y)^1 + \binom 42 (2x)^2(3y)^2 + \binom 41 (2x)^1(3y)^3 + \binom 40 (2x)^0(3y)^4$
++ <img src="http://api.gmath.guru/cgi-bin/gmath?%282x+3y%29%5E4%20%3D%20%5Cbinom%2044%20%282x%29%5E4%283y%29%5E0%20+%20%5Cbinom%2043%20%282x%29%5E3%283y%29%5E1%20+%20%5Cbinom%2042%20%282x%29%5E2%283y%29%5E2%20+%20%5Cbinom%2041%20%282x%29%5E1%283y%29%5E3%20+%20%5Cbinom%2040%20%282x%29%5E0%283y%29%5E4"/>
 
 ### Q. 다음 이항정리 공식이 이해되는가?
 
-+ ![Binomial Theorem (generalized)](https://wikimedia.org/api/rest_v1/media/math/render/svg/689f5d27fa52a8ff3f89bed50e7d6625d5c35aaa)
++ ![Binomial Theorem (generalized)](https://wikimedia.org/api/rest_v1/media/math/render/svg/689f5d27fa52a8ff3f89bed50e7d6625d5c35aaa )
 
 ### Q. n개의 원소를 가진 집합의 부분집합의 개수는 몇 개인가?
 
@@ -54,23 +54,23 @@
 + 각각의 원소가 들어가냐 안 들어가냐를 계산한다.
 + 모든 원소는 2가지 경우 (들어가는 경우 or 들어가지 않는 경우)를 가지고 있다.
 + 2가지 경우가 n개의 원소에 각각 적용되므로 곱의 법칙을 사용한다.
-+ $ 2 * 2 * 2 ... * 2$
-+ $ \therefore 2^n$
++ <img src="http://api.gmath.guru/cgi-bin/gmath?%202%20*%202%20*%202%20...%20*%202"/>
++ <img src="http://api.gmath.guru/cgi-bin/gmath?%20%5Ctherefore%202%5En"/>
 
 #### solution 2
 
 + 원소가 0개인 경우, 1개인 경우, 2개인 경우, ...., n개인 경우를 모두 구해서 더한다.
-+ 원소가 0개인 경우 : $\binom n0$
-+ 원소가 1개인 경우 : $\binom n1$
-+ 원소가 2개인 경우 : $\binom n2$
-+ 원소가 n개인 경우 : $\binom nn$
++ 원소가 0개인 경우 : <img src="http://api.gmath.guru/cgi-bin/gmath?%5Cbinom%20n0"/>
++ 원소가 1개인 경우 : <img src="http://api.gmath.guru/cgi-bin/gmath?%5Cbinom%20n1"/>
++ 원소가 2개인 경우 : <img src="http://api.gmath.guru/cgi-bin/gmath?%5Cbinom%20n2"/>
++ 원소가 n개인 경우 : <img src="http://api.gmath.guru/cgi-bin/gmath?%5Cbinom%20nn"/>
 + 이항정리에 `x=1`, `y=1`을 넣으면 다음과 같은 식이 완성된다.
-+ $ (1+1)^n = \binom n0 + \binom n1 + ... + \binom nn$
-+ $ \therefore 2^n$
++ <img src="http://api.gmath.guru/cgi-bin/gmath?%20%281+1%29%5En%20%3D%20%5Cbinom%20n0%20+%20%5Cbinom%20n1%20+%20...%20+%20%5Cbinom%20nn"/>
++ <img src="http://api.gmath.guru/cgi-bin/gmath?%20%5Ctherefore%202%5En"/>
 
 ## Mutinomial Theorem
 
-### Q. $(x + y + 2z)^2$의 계수를 구하시오.
+### Q. <img src="http://api.gmath.guru/cgi-bin/gmath?%28x%20+%20y%20+%202z%29%5E2"/>의 계수를 구하시오.
 
 @@@ resume : 33:25
 ```
@@ -132,7 +132,7 @@ n!/(p!*r!)로 계산해줘야 한다.
 
 + 한국에서는 고등학교 때 조합의 기호를 nCr로 표현했다. 이러한 표현을 안 쓰는 것은 아니지만 교수님 말씀에 따르면 학계에서나 전 세계적으로나 아래와 같이 표현한다고 한다.
 
-![n combination c](https://wikimedia.org/api/rest_v1/media/math/render/svg/08bdf0fff474c26293414f9eb01ab4bc73ef941f)
+![n combination c](https://wikimedia.org/api/rest_v1/media/math/render/svg/08bdf0fff474c26293414f9eb01ab4bc73ef941f )
 
 + nCk는 `n choose k`라고 읽으면 된다.
 
