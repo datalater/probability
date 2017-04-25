@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css">
+
 ⓒ JMC 2017  
 
 출처 : 확률론, 덕성여대 이상준 교수, A First Course in Probability, Sheldon Ross
