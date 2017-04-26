@@ -1,9 +1,3 @@
-<!-- Load jQuery -->
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<!-- Load KaTeX -->
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.js"></script>
-
 ⓒ JMC 2017  
 
 출처 : 확률론, 덕성여대 이상준 교수, A First Course in Probability, Sheldon Ross
@@ -39,9 +33,9 @@
     + x를 k번, y를 n-k번 선택하는 경우의 수 = x를 k번 선택하는 경우의 수
     + `n choose k` = <img src="http://api.gmath.guru/cgi-bin/gmath?%5Cbinom%20nk"/>
 
-### Q. <img src="http://api.gmath.guru/cgi-bin/gmath?%282x+3y%29%5E4"/>의 계수를 이항정리를 통해 구하시오.
+### Q. ![](http://api.gmath.guru/cgi-bin/gmath?%282x+3y%29%5E4)의 계수를 이항정리를 통해 구하시오.
 
-+ <img src="http://api.gmath.guru/cgi-bin/gmath?%282x+3y%29%5E4%20%3D%20%5Cbinom%2044%20%282x%29%5E4%283y%29%5E0%20+%20%5Cbinom%2043%20%282x%29%5E3%283y%29%5E1%20+%20%5Cbinom%2042%20%282x%29%5E2%283y%29%5E2%20+%20%5Cbinom%2041%20%282x%29%5E1%283y%29%5E3%20+%20%5Cbinom%2040%20%282x%29%5E0%283y%29%5E4"/>
++ ![](http://api.gmath.guru/cgi-bin/gmath?%282x+3y%29%5E4%20%3D%20%5Cbinom%2044%20%282x%29%5E4%283y%29%5E0%20+%20%5Cbinom%2043%20%282x%29%5E3%283y%29%5E1%20+%20%5Cbinom%2042%20%282x%29%5E2%283y%29%5E2%20+%20%5Cbinom%2041%20%282x%29%5E1%283y%29%5E3%20+%20%5Cbinom%2040%20%282x%29%5E0%283y%29%5E4)
 
 ### Q. 다음 이항정리 공식이 이해되는가?
 

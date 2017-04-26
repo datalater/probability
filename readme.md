@@ -2,10 +2,6 @@
 
 출처 : 확률론, 덕성여대 이상준 교수, A First Course in Probability, Sheldon Ross
 
-```math
-x^3
-```
-
 ```
 # 마크다운 작성법 (2017.04.25)
 - 수식은 KaTeX로 작성한다.
