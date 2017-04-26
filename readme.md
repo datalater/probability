@@ -1,9 +1,3 @@
-<!-- Load jQuery -->
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<!-- Load KaTeX -->
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.js"></script>
-
 ⓒ JMC 2017  
 
 출처 : 확률론, 덕성여대 이상준 교수, A First Course in Probability, Sheldon Ross
@@ -32,7 +26,7 @@
 ### Q. 이항정리는 어떻게 증명하는가?
 
 + 경우의 수를 셀 때 사용했던 조합을 이용하면 된다.
-+ $x^k$
++ $`x^k`$
     + x를 k번 선택하는 경우의 수
     + 전체 n개 중에 k를 뽑는 경우의 수 : `n choose k` = $\binom nk$
 + $x^ky^{n-k}$
